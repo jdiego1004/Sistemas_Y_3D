@@ -14,8 +14,13 @@
   <link rel="stylesheet" href="css/estilo_navbar.css">
 </head>
 
-<body>
-
+<body onload="cambiarNoticia()">
+  <script>
+    function cambiarNoticia() {
+      imagen1 = localStorage.getItem("imagen1");
+      document.getElementById('imagen1').src = imagen1;
+  }
+  </script>
 
     <div class="top-header py-4">
 
@@ -93,11 +98,15 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="5000">
                 <a href="#">
-                  <img class="imagen-carusel d-block w-100" src="https://2.bp.blogspot.com/-16n3WHrADjg/U_UvhdX7gYI/AAAAAAAAW6Y/F8Iv259FVEQ/s1600/Los_simpsons.png" alt="foto" />
+                  <img id="imagen1" class="imagen-carusel d-block w-100" src="" alt="foto" />
                 </a>
                 <div class="carousel-caption d-none d-md-block oscuro">
-                  <h5>First slide label</h5>
-                  <p>Media Maratón de Lima 2016 permitirá plantar más de 15 mil árboles</p>
+                  <h5><script> 
+                    document.write(localStorage.getItem("titulo"));
+                    </script></h5>
+                  <p><script> 
+                    document.write(localStorage.getItem("titulo"));
+                    </script></p>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="5000">
@@ -140,7 +149,8 @@
 
     <section>
       <div class="container">
-        listo
+<br><br><br>
+
       </div>
     </section>
     

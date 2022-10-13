@@ -40,6 +40,7 @@
   object-fit: cover;
   max-width: 100%;
   max-height: 10%;
+  
 }
 
 .maximo img{
@@ -51,6 +52,14 @@
   color: var(--color-negro-1)!important;
   background: var(--color-blanco-1)!important;
   opacity: .9!important;
+}
+
+.seccion-mision{
+  background-color: var(--color-azul-3)!important;
+}
+
+.seccion-objetivo{
+  background-color: var(--color-azul-3)!important;
 }
 
 
