@@ -1,0 +1,44 @@
+:root{
+    --color-negro-1:rgb(5, 5, 5);
+    --color-negro-2:rgb(39,33,31);
+    
+    --color-azul-1:rgb(0, 255, 255);
+    --color-azul-2:rgb(2, 154, 218);
+    --color-azul-3:rgb(15, 158, 214);
+    --color-azul-4:rgb(39, 119, 169);
+  
+    --color-blanco-1:rgb(235, 235, 235);
+    --color-blanco-2:rgb(243, 242, 244);
+  
+    --color-gris-1:rgb(176, 174, 177);
+    --color-gris-2:rgb(183, 182, 187);
+  
+    --color-complementario-1:rgb(250, 250, 250);
+    --color-complementario-2:rgb(252, 252, 252);
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .navbar{
+    background-color:var(--color-azul-2)!important;
+    box-shadow: 0 0 2px #000!important;
+  }
+
+  .container-fluid a{
+    color: white!important;
+  }
+
+
+  .dropdown-menu a {
+    color: var(--color-negro-1)!important;
+  }
+  .dropdown-menu a:hover {
+    background-color:white!important;
+    color: var(--color-negro-1)!important;
+  }
