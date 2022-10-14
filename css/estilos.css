@@ -24,6 +24,10 @@
   box-sizing: border-box; 
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .h1-centrar{
   margin: 3% auto;
   text-align: center;
@@ -43,8 +47,11 @@
   
 }
 
+
+
 .maximo img{
   background-color: #000!important;
+  height: 500px!important;
 }
 
 
@@ -54,20 +61,51 @@
   opacity: .9!important;
 }
 
-.seccion-mision{
-  background-color: var(--color-azul-3)!important;
+.seccion-historia, .seccion-vision{
+  padding: 20px;
+  text-align: justify;
 }
 
-.seccion-objetivo{
+.seccion-mision, .seccion-objetivo{
   background-color: var(--color-azul-3)!important;
+  color: aliceblue!important;
+  padding: 20px;
+  text-align: justify;
 }
 
 
+.centrados{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartas-acopladas{
+  border: none!important;
+  box-shadow: 4px 4px 4px var(--color-negro-2);
+  margin: 5% auto;
+  max-width: 30%!important;
+  height: 400px!important;
+}
+
+.cartas-acopladas h5{
+  text-align: center;
+  margin: 10% auto;
+  text-transform: uppercase;
+} 
+
+.cartas-acopladas img{
+  height: 410px;
+  object-fit: cover;
+  opacity: .3;
+}
 
 
-
-
-
-
+@media (max-width: 1000px) {
+  
+  .imagen img{
+    max-width: 50%;
+  }
+}
 
 
