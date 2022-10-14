@@ -73,6 +73,10 @@
   text-align: justify;
 }
 
+.seccion-objetivo{
+  margin-bottom: 1%;
+}
+
 
 .centrados{
   display: flex;
@@ -98,6 +102,21 @@
   height: 410px;
   object-fit: cover;
   opacity: .3;
+}
+
+
+.footer-colors{
+  background-color: var(--color-azul-2)!important;
+  color: var(--color-blanco-1)!important;
+  padding-top: 1%!important;
+}
+
+.footer-colors .padding div{
+  margin: 5% auto;
+}
+
+.footer-colors .copy{
+  background-color: var(--color-azul-4)!important;
 }
 
 
