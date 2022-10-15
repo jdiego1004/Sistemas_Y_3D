@@ -89,7 +89,12 @@
   box-shadow: 4px 4px 4px var(--color-negro-2);
   margin: 5% auto;
   max-width: 30%!important;
-  height: 400px!important;
+  height: 410px!important;
+}
+
+.cartas-acopladas a{
+  text-decoration: none;
+  color: white!important;
 }
 
 .cartas-acopladas h5{
@@ -117,6 +122,10 @@
 
 .footer-colors .copy{
   background-color: var(--color-azul-4)!important;
+}
+
+.footer-colors a{
+  text-decoration: none;
 }
 
 
