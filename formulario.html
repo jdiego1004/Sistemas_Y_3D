@@ -76,34 +76,40 @@
 
     <section>
       <div class="container">
-        <form action="servicios.html" autocomplete="off">
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo" required="True" pattern="[A-Za-z\s ]+">
-              </div>
-            <div class="mb-3">
-                <label for="correo" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required="True">
-              </div>
+        <div class="form__org">
+          <h1 class="h1-centrar">Necesidad</h1>
+          <form action="servicios.html" autocomplete="off">
               <div class="mb-3">
-                <label for="servicio" class="form-label">Servicio</label>
-                  <select id="servicio" class="form-select" aria-label="Default select example">
-                    <option selected>Seleccione un servicio</option>
-                    <option value="1">Desarrollo</option>
-                    <option value="2">Base de Datos</option>
-                    <option value="3">Infra estructura</option>
-                    <option value="4">Mantenimiento</option>
-                    <option value="5">Impresión 3D</option>
-                  </select>
-              </div>
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo" required="True" pattern="[A-Za-z\s ]+">
+                </div>
               <div class="mb-3">
-                <label for="descr" class="form-label">Descripción de la necesidad</label>
-                <textarea class="form-control" id="descr" rows="3" placeholder="Ingrese la necesidad" required="True"></textarea>
-              </div>
-              <div class="mb-3">
-                <input type="submit" class="form-control btn btn-primary" id="exampleFormControlInput1">
-              </div>
-        </form>
+                  <label for="correo" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required="True">
+                </div>
+                <div class="mb-3">
+                  <label for="servicio" class="form-label">Servicio</label>
+                    <select id="servicio" class="form-select" aria-label="Default select example">
+                      <option selected>Seleccione un servicio</option>
+                      <option value="1">Desarrollo</option>
+                      <option value="2">Base de Datos</option>
+                      <option value="3">Infra estructura</option>
+                      <option value="4">Mantenimiento</option>
+                      <option value="5">Impresión 3D</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                  <label for="descr" class="form-label">Descripción de la necesidad</label>
+                  <textarea class="form-control" id="descr" rows="3" placeholder="Ingrese la necesidad" required="True"></textarea>
+                </div>
+                <div class="mb-3">
+                  <input type="submit" class="form-control btn btn-primary btn-color" id="exampleFormControlInput1" value="Enviar">
+                </div>
+          </form>
+          <div class="mb-3">
+            <a type="submit" class="form-control btn btn-secondary btn-color2" href="servicios.html">Volver</a>
+          </div>
+        </div>
       </div>
     </section>
     

@@ -76,13 +76,30 @@
 
 
 
-    <section >
-      
-
-      <div class="contenido">
-        sadas
+    <section>
+      <div class="container">
+        <div class="form__org">
+          <h1 class="h1-centrar">contactanos</h1>
+          <form action="#" autocomplete="off">
+              <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo" required="True" pattern="[A-Za-z\s ]+">
+                </div>
+              <div class="mb-3">
+                  <label for="correo" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required="True">
+                </div>
+                
+                <div class="mb-3">
+                  <label for="descr" class="form-label">Descripción</label>
+                  <textarea class="form-control" id="descr" rows="3" placeholder="Ingrese una Descripción" required="True"></textarea>
+                </div>
+                <div class="mb-3">
+                  <input type="submit" class="form-control btn btn-primary btn-color" id="exampleFormControlInput1" value="Enviar">
+                </div>
+          </form>
+        </div> 
       </div>
-      
     </section>
     
   
